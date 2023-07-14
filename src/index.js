@@ -1,3 +1,14 @@
-console.log("Hello, webpack!");
+import createHeadline from "./headline";
+import createImage from "./image";
+import createDescription from "./description";
 
-alert("Alert, webpack!");
+function loadHomePage() {
+  const contentDiv = document.getElementById("content");
+
+  contentDiv.appendChild(createHeadline());
+  contentDiv.appendChild(createImage());
+  contentDiv.appendChild(createDescription());
+}
+
+// Call the function when the page loads
+loadHomePage();
