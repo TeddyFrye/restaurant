@@ -1,10 +1,47 @@
+body{
+    margin: 10px;
+    padding: 10px;
+}
+
 h1 {
     color: yellow;
     font-family: Arial, sans-serif;
     font-size: 2em;
+    margin: 10px;
+    padding: 10px;
   }
   
-  p {
-    color: yellowgreen;
+p {
+    color: rgb(180, 232, 74);
+    text-shadow: #05260e 2px 2px;
     font-family: Arial, sans-serif;
+    margin: 10px;
+    margin-left: 20px;
+    margin-top: 0px;
+    padding: 10px;
   }
+
+.tab-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 3px 10px;
+  }
+
+.tab-button {
+    padding: 10px 20px;
+    background-color: darkblue;
+    border: 3px solid #1e176e;
+    border-radius: 4px;
+    color: darkgoldenrod;
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    font-weight: bold;
+    cursor:crosshair;
+  }
+  
+.tab-button:hover {
+    background-color: #1e176e;
+    color: #e79c4b;
+  }
+  

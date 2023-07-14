@@ -15,7 +15,7 @@ function createContact() {
   contact.appendChild(phoneNumber);
 
   const address = document.createElement("p");
-  address.textContent = "Address: 123 Main St, Anytown, USA";
+  address.textContent = "Address: 77 W 66th St. New York, NY 10023";
   contact.appendChild(address);
 
   div.appendChild(contact);
